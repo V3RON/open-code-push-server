@@ -1,11 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
-
-import * as q from "q";
 import * as stream from "stream";
 import * as error from "../error";
-
-import Promise = q.Promise;
 
 export enum ErrorCode {
   ConnectionFailed = 0,
